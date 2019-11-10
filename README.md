@@ -11,7 +11,7 @@
 ## CODE
 
 #### 1. WAP to Add two numbers.  
- 
+```C 
 #include<stdio.h>    
 int main()  
 {  
@@ -25,9 +25,10 @@ printf("Sum of 1st & 2nd number is = %.2f\n",sum);
  
 return 0;  
 }  
+```
 
 #### 2. WAP to find the Average of 'n' numbers.  
- 
+```C 
 #include<stdio.h>  
 int main()  
 {  
@@ -46,9 +47,9 @@ printf("Average is %.2f.\n",avg);
  
 return 0;  
 }  
- 
+ ```
 #### 3. WAP to Print weekdays using switch statement.
- 
+ ```C
 #include<stdio.h>
 int main()
 {
@@ -73,10 +74,10 @@ else
 printf("Invalid input\n");
 return 0;
 }
-  
+```
 
 #### 4. WAP to find whether a number is Even or Odd.  
- 
+ ```C
 #include<stdio.h>  
 int main()              {  
  
@@ -92,9 +93,9 @@ printf("Number is odd.\n");
 return 0;  
  
 }  
- 
+``` 
 #### 5. WAP to Print the table of 2 using for loop.  
- 
+ ```C
 #include<stdio.h>
 int main()
 {
@@ -114,9 +115,9 @@ printf("\nPress any key to continue...\n");
 
 return 0;
 }  
- 
+``` 
 #### 6. WAP to check whether the number is an Armstrong number or not.  
- 
+ ```C
 #include<stdio.h>  
 int main()  
 {  
@@ -137,9 +138,9 @@ printf("The entered number is not an Armstrong number.\n");
  
 return 0;  
 }  
- 
+``` 
 #### 7. WAP to Print calculator using puts.  
- 
+```C 
 #include<stdio.h>  
 void main()  
 {  
@@ -154,9 +155,9 @@ puts("| ___ | ___ | ___ | ___ |\n");
 puts("|\t0\t  |  *  |\n");  
 puts("| _______________ | ___ |\n");  
 }  
- 
+``` 
 #### 8. WAP for Bubble Sort.  
- 
+```C 
 #include<stdio.h>  
 int main()  
 {  
@@ -189,9 +190,9 @@ printf("\n");
  
 return 0;  
 }  
- 
+``` 
 #### 9. WAP for Binary Search.  
- 
+```C 
 #include<stdio.h>  
 int main()  
 {  
@@ -228,9 +229,9 @@ printf("%d not found in the entered array!\n",n); &nbsp; &nbsp;//Test expression
  
 return 0;                                                                    
 }  
- 
+``` 
 #### 10. WAP to find the Factorial of a number.  
- 
+```C 
 #include<stdio.h>  
 int main()  
 {  
@@ -245,9 +246,9 @@ printf("\n%d! = %d\n",n,fac);
  
 return 0;  
 }  
- 
+``` 
 #### 11. WAP for Fizz-Buzz.  
- 
+```C 
 #include<stdio.h>
 int main()
 {
@@ -265,9 +266,9 @@ printf("%d\n",i);
 }
 return 0;
 }  
- 
+``` 
 #### 12. WAP to find the Sum of first 100 numbers.  
- 
+```C 
 #include<stdio.h>    
 int main()              {  
  
@@ -282,9 +283,9 @@ printf("Sum of first 100 +ve integers = %d\n",sum);
  
 return 0;  
 }  
- 
+``` 
 #### 13. WAP to find the Greater of two numbers.  
- 
+ ```C
 #include<stdio.h>  
 int main()                
 {
@@ -301,9 +302,9 @@ printf("b is greater");
 }
 return 0;
 }  
- 
+``` 
 #### 14. WAP to find the Greatest of three numbers.  
- 
+```C 
 #include<stdio.h>  
 int a,b,c;  
 **int largestof3(int a,int b,int c)** &nbsp; &nbsp;//Function definition  
@@ -326,9 +327,9 @@ printf("The largest of the 3 numbers entered is %d.\n",**largestof3(a,b,c)**); &
  
 return 0;  
 }  
- 
+``` 
 #### 15. WAP to find G.C.D. of two numbers.  
- 
+```C 
 #include<stdio.h>  
 int main()  
 {  
@@ -345,9 +346,9 @@ printf("GCD of %d and %d is %d.\n",n1,n2,gcd);
  
 return 0;  
 }  
- 
+``` 
 #### 16. WAP to find whether the year is Leap year or not.  
- 
+```C 
 #include<stdio.h>    
 int main()              {
  
@@ -363,9 +364,9 @@ printf("Not a Leap Year\n");
  
 return 0;  
 }  
- 
+``` 
 #### 17. WAP for Linear Search.  
- 
+```C 
 #include<stdio.h>  
 int main()  
 {  
@@ -402,9 +403,9 @@ printf("%d not found in the entered array!\n",n); &nbsp; &nbsp;//Test expression
  
 return 0;                                                                    
 }  
- 
+``` 
 #### 18. WAP for Matrix Addition.  
- 
+```C 
 #include<stdio.h>  
 void main()  
 {  
@@ -441,9 +442,9 @@ printf("%.1f ",m3[i][j]);
 printf("\n\n");  
  
 }  
- 
+``` 
 #### 19. WAP to find Transpose of a matrix.  
- 
+```C 
 #include<stdio.h>  
 void main()  
 {  
@@ -473,9 +474,9 @@ printf("%d ",b[i][j]);
 }  
 printf("\n\n");  
 }  
- 
+``` 
 #### 20. WAP to find the Sum of digits of a number.  
- 
+```C
 #include<stdio.h>                                                            
 int main()              {  
  
@@ -497,9 +498,9 @@ printf("\n Sum of digits of %d = %d \n",n,sum);
  
 return 0;  
 }  
- 
+``` 
 #### 21. WAP to check whether the number is Palindrome or not.  
- 
+```C 
 #include<stdio.h>  
 int main()  
 {  
@@ -522,9 +523,9 @@ printf("\n%d is not a palindrome number.\n",n);
  
 return 0;  
 }  
- 
+``` 
 #### 22. WAP to swap 2 numbers using Call by Value method.  
- 
+```C 
 #include<stdio.h>  
 **void swap(int a,int b);** &nbsp; &nbsp;//Function declaration  
  
@@ -555,9 +556,9 @@ a = b;
 b = temp;  
 printf("\n Value of a = %d, value of b = %d after swap\n",a,b);  
 *}*  
- 
+``` 
 #### 23. WAP to swap 2 numbers using Call by Reference method.  
- 
+```C 
 #include<stdio.h>  
 **void swap( int * , int * );** &nbsp; &nbsp;//Function declaration    
  
@@ -586,9 +587,9 @@ temp = *a;
 *b = temp;  
 printf("\nValue of *a=%d, value of *b=%d after swap\n",*a,*b);  
 *}*  
- 
+``` 
 #### 24. WAP to enter the details of Employees using structures.  
- 
+```C 
 #include<stdio.h>  
  
 **struct employee** &nbsp; &nbsp;//Structure definition  
@@ -615,9 +616,9 @@ printf("Particulars of Employee are\n");
 printf("Employee's code:  %d\nEmployee's name:  %s\nEmployee's department:  %s\nEmployee's salary:  %.2f\n\n",Aemployee.code,Aemployee.name,Aemployee.dept,Aemployee.salary);  
  
 }  
- 
+``` 
 #### 25. WAP to find the Product of fractions using structures.  
- 
+```C 
 #include<stdio.h>  
  
 struct frac  
@@ -642,3 +643,4 @@ printf("The resultant product fraction is %.2f/%.2f.\n",res.num,res.denom);
  
 return 0;  
 }  
+```
